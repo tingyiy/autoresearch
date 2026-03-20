@@ -1,0 +1,19 @@
+{
+  "name": "autoresearch",
+  "description": "Autonomous research engine with pluggable evaluation. Runs an experiment loop: hypothesize → implement → evaluate → keep/discard → repeat.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Ting-Yi Yang",
+    "url": "https://github.com/tingyiy"
+  },
+  "repository": "https://github.com/tingyiy/autoresearch",
+  "license": "MIT",
+  "keywords": [
+    "autonomous",
+    "research",
+    "experimentation",
+    "optimization",
+    "llm-judge",
+    "pairwise-evaluation"
+  ]
+}

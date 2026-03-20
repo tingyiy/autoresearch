@@ -1,0 +1,23 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "autoresearch",
+  "version": "0.1.0",
+  "description": "Autonomous research engine for Claude Code — iteratively prototype and improve with pluggable evaluation (LLM judge, metric comparison, test suite, hybrid). Inspired by Karpathy's autoresearch.",
+  "owner": {
+    "name": "Ting-Yi Yang",
+    "url": "https://github.com/tingyiy"
+  },
+  "plugins": [
+    {
+      "name": "autoresearch",
+      "description": "Autonomous experimentation loop with pluggable judges. /autoresearch runs the loop. Supports LLM pairwise comparison, numeric metrics, test suites, and hybrid evaluation.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Ting-Yi Yang",
+        "url": "https://github.com/tingyiy"
+      },
+      "source": "./claude-plugin",
+      "category": "productivity"
+    }
+  ]
+}
