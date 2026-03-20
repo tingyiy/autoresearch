@@ -86,17 +86,21 @@ Every improvement stacks. Failures are discarded via branch deletion — no `git
 
 ### Installation
 
-Copy the plugin into your Claude Code configuration:
+**Global** (available in all projects):
 
 ```bash
-# Clone
 git clone https://github.com/tingyiy/autoresearch.git /tmp/autoresearch
-
-# Install globally
 cp -r /tmp/autoresearch/claude-plugin/* ~/.claude/
 ```
 
-Or copy to a project's `.claude/` directory for project-scoped installation.
+**Project-scoped** (available only in one project):
+
+```bash
+git clone https://github.com/tingyiy/autoresearch.git /tmp/autoresearch
+cp -r /tmp/autoresearch/claude-plugin/* .claude/
+```
+
+Verify it's installed — run `/autoresearch` in Claude Code.
 
 ### Usage
 
