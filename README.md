@@ -86,14 +86,21 @@ Every improvement stacks. Failures are discarded via branch deletion — no `git
 
 ### Installation
 
-**Global** (available in all projects):
+**Via Claude Code plugin marketplace (recommended):**
+
+```
+/plugin marketplace add tingyiy/autoresearch
+/plugin install autoresearch@autoresearch
+```
+
+**Manual — global** (available in all projects):
 
 ```bash
 git clone https://github.com/tingyiy/autoresearch.git /tmp/autoresearch
 cp -r /tmp/autoresearch/claude-plugin/* ~/.claude/
 ```
 
-**Project-scoped** (available only in one project):
+**Manual — project-scoped** (available only in one project):
 
 ```bash
 git clone https://github.com/tingyiy/autoresearch.git /tmp/autoresearch
